@@ -1,0 +1,15 @@
+
+Neste caso não precisa fazer um algoritmo. Para A = Verdadeiro, B = Verdadeiro e C = Falso, qual o resultado
+da avaliação das seguintes expressões:
+
+a) (A e B) ou (A ou B)
+	
+	[A (V) e B (V)] ou [A (V) ou B (V)] = V ou V = V
+
+b) (A ou B) e (A e C)
+
+	[A (V) ou B (V)] e [A (V) e C (F)] = V e F = F
+
+c) A ou C e B ou A e não B
+
+	[A (V) ou C (F)] e [B (V) ou A (V)] e !B (F) = V e V e F = F
